@@ -73,7 +73,8 @@ print(strTemp)
 ints = array('i')
 ints.fromstring(strTemp)
 print(ints)
-
+#
+##
 # 14. Convert array to a python list with same elements using tolist() method
 print("Step 14")
 # print(my_array.tolist())
