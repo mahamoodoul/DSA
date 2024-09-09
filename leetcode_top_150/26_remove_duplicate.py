@@ -4,10 +4,8 @@ class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
             return 0
-        
         # Initialize the write pointer `k`
         k = 1  # Start at 1 because the first element is always unique
-        
         # Iterate over the list starting from the second element
         for i in range(1, len(nums)):
             # If the current element is different from the previous one, it is unique
@@ -15,7 +13,6 @@ class Solution:
                 nums[k] = nums[i]  # Place the unique element at index `k`
                 print(nums)
                 k += 1  # Increment the write pointer
-        
         return k  # `k` is the new length of the array with unique elements
 
 
