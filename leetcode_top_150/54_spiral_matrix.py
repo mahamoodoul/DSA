@@ -24,7 +24,7 @@ class Solution:
                 # Traverse bottom to top from left side
                 for i in range(bottom, top-1, -1):
                     result.append(matrix[i][left])
-                    left += 1
+                left += 1
         return result
            
 
