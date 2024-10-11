@@ -17,7 +17,7 @@ class Solution:
                 #move bottom right to into bottom left
                 matrix[bottom-i][left] = matrix[bottom][right-i]
                 #move top right to bottom right 
-                matrix[bottom][right-1] = matrix[top + i][right]
+                matrix[bottom][right-i] = matrix[top + i][right]
                 #move top left to top right
                 matrix[top+i][right] = topLeft
             left += 1
